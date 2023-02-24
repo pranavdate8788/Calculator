@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="./input.css">
+</head>
+<body >
+    <div class="h-auto max-w-full items-center justify-center flex  bg-stone-600" >
+    <div class=" m-3 p-4 h-auto justify-center flex flex-wrap  rounded-lg text-2xl items-center w-80 bg-gray-900 ">
+        <textarea name="" id="outputScreen" cols="35" placeholder="0" rows="3"></textarea>
+<button class="m-2 p-2 h-14 w-14 bg-red-600 rounded-full"  onclick="clr()">C</button>
+<button class="m-2 p-2 h-14 w-14 bg-orange-400 rounded-full" onclick="del()">Del</button>
+<button class="m-2 p-2  h-14 w-14 bg-orange-400 rounded-full" onclick="display('%')">%</button>
+<button class="m-2 p-2 h-14 w-14 bg-orange-400 rounded-full"  onclick="display('/')">/</button>
+<button class="m-2 p-2 h-14 w-14 bg-stone-50 rounded-full"  onclick="display('1')">1</button>
+<button class="m-2 p-2  h-14 w-14 bg-stone-50 rounded-full"  onclick="display('2')">2</button>
+<button class="m-2 p-2 h-14 w-14 bg-stone-50 rounded-full"  onclick="display('3')">3</button>
+<button class="m-2 p-2 h-14 w-14 bg-orange-400 rounded-full"  onclick="display('*')">*</button>
+<button class="m-2 p-2 h-14 w-14 bg-stone-50 rounded-full"  onclick="display('4')">4</button>
+<button class="m-2 p-2  h-14 w-14 bg-stone-50 rounded-full"  onclick="display('5')">5</button>
+<button class="m-2 p-2  h-14 w-14 bg-stone-50 rounded-full"  onclick="display('6')">6</button>
+<button class="m-2 p-2  h-14 w-14 bg-orange-400 rounded-full"  onclick="display('-')">-</button>
+<button class="m-2 p-2  h-14 w-14 bg-stone-50 rounded-full"  onclick="display('7')">7</button>
+<button class="m-2 p-2  h-14 w-14 bg-stone-50 rounded-full"  onclick="display('8')">8</button>
+<button class="m-2 p-2 h-14 w-14 bg-stone-50 rounded-full"  onclick="display('9')">9</button>
+<button class="m-2 p-2  h-14 w-14 bg-orange-400 rounded-full"  onclick="display('+')">+</button>
+<button class="m-2 p-2  h-14 w-32 bg-stone-50 rounded-full"  onclick="display('0')">0</button>
+ <button class="m-2 p-2 h-14 w-14 bg-stone-50 rounded-full"  onclick="display('.')">.</button>
+<button class="m-2 p-2  h-14 w-14 bg-orange-400 rounded-full" onclick="calc()">=</button>
+
+    </div>
+    <script src="./script.js"></script>
+</div>
+</body>
+</html> 
